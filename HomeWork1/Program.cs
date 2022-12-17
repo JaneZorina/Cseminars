@@ -35,6 +35,11 @@ if (num1 < num2)
 }
 else 
 {
+    if (num1 < num3)
+    {
+        Console.WriteLine($"Biggest number is {num3}");
+    }
+    else
     Console.WriteLine($"Biggest number  is {num1}");
 }
 */
