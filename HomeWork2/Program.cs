@@ -37,20 +37,13 @@ Console.WriteLine("third digit is "+NewNumber);
 */
 
 //Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-
-int Weekend (int number)
+/*
+bool Weekend (int number)
 {
-  if (number=7 && number= 6)
-  {
-    Console.WriteLine("weekend!");
-      }
-  else
-  {
-        Console.WriteLine(" working day!");
-    
-      }
-}
-int randNumber = new Random().Next(1,6);
+  if (number==7 || number== 6) return true;
+  else return false;
+  }
+int randNumber = new Random().Next(1,8);
 Console.WriteLine ("Current random  number is "+ randNumber);
-int NewNumber = Weekend(randNumber);
-Console.WriteLine(" It's "+NewNumber);
+Console.WriteLine( Weekend (randNumber));
+*/
