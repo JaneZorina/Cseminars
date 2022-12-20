@@ -35,8 +35,9 @@ int NewNumber = CompareNumber(randNumber);
 Console.WriteLine("biggest digit is "+NewNumber);
 */
 //Напишите программу, которая будет принимать на вход два числа и определять, является ли второе число кратным первому
+
 /*
-bool Method ( int num1 , int num2);
+bool Method ( int num1 , int num2)
 {
 if (num2 %  num1 == 0) return true;
 else return false;
@@ -46,10 +47,13 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("input a second  number: ");
 int num2= Convert.ToInt32(Console.ReadLine ());
 Console.WriteLine ( Method(num1,num2) );
+ 
  */
+
  //Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого
+
 /*
-bool QuadNumber ( int num1 , int num2);
+bool QuadNumber ( int num1 , int num2)
 {
 if (num1 == num2*num2 || num2==num1*num1) return true;
 else return false;
